@@ -1,0 +1,177 @@
+/* ============================================================
+  HTML & BODY
+============================================================ */
+body {
+  background-color: #b4b4b4;
+  color: #787878;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}  
+
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: auto; */
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+ul.topnav img {
+
+    float:left;
+    width:70px;
+    padding: 5px;
+    z-index: 1000;
+
+}
+
+ul.topnav li {float:right;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+    font-size: 12px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+
+
+}
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.wrapper {
+  width: 100%;
+}
+
+main {
+  display:block;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 0px;
+}
+
+.contactinfo {
+  margin-bottom: -20px; margin-top:10px
+  }
+.contactinfo p {
+   position:;
+   line-height: 1;
+   width: 100%;
+   margin-bottom: -50px;
+   margin-top: -20px;
+}
+.contactinfo img {
+  float:right;
+  width: 100px;
+  display: inline-block;
+  margin: 40;
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+ol {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFFFFF;
+  frameborder: 0;
+  overflow: hidden;
+  seamless frameborder: 0;
+  scrolling: no;
+  margin-bottom: 10px;
+}
+
+section.module h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  margin: 30px;
+}
+section.module p {
+  font-size: 14px;
+  /* font-weight: 300; */
+  font-color: rgba(255,255,255);
+  padding: 30px 30px;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 1px 0px 20px;
+  background-color: rgba(0,0,0,0.9);
+}
+section.module.parallax {
+  max-height: 600px;
+  width: 100%;
+  padding: 1px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 30px;
+  line-height: 500px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  bottom: -250px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../img/demo/_small/ThroughthelensVRMyanmar.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../img/demo/_small/IntoAthaya.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/IntoKanShwedy.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h1 {
+    font-size: 30px;
+  }
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 60px;
+  }
+  ul.topnav li a {
+    font-size: 20px
+  }  
+}
